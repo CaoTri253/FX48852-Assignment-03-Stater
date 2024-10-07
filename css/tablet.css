@@ -1,0 +1,47 @@
+/*------------- GIAO DIỆN TABLET -------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+  #nav-bar img {
+      display: none; /* Hide profile image */
+  }
+
+
+
+
+
+  #certificate .certificate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+  }
+
+  #certificate .col-md-6 {
+    width: 415px;
+    margin-bottom: 30px;
+  }
+  #certificate h2{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  #certificate h4 {
+    margin-top: 10px;
+  }
+
+  #certificate .vl {
+    position: relative;
+    height: 200px;
+    right: -75px;
+  }  
+
+
+  .column-1,
+  .column-2 {
+    border-bottom: 2px solid rgba(255, 157, 0, 0.907);
+    margin-top: 0;
+    padding-bottom: 50px;
+  } 
+}
+
+
+

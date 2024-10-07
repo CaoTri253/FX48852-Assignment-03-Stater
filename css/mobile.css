@@ -1,0 +1,53 @@
+/*------------- GIAO DIỆN MOBILE -------------*/
+@media only screen and (max-width: 768px) {
+  #nav-bar .top-user-info{
+    display: none;
+  }
+  #nav-bar .container {
+    display: flex;
+    flex-direction: column; /* Đặt các thành phần theo chiều dọc */
+    align-items: start; /* Căn giữa các thành phần */
+    height: 200px;
+  }
+
+  #nav-bar .vl {
+    display: none; /* Ẩn các đường thẳng giữa các phần tử */
+  }
+  #nav-bar .container a,
+  #nav-bar .container .top-user-info {
+    margin: 10px 0; /* Thêm khoảng cách giữa các phần tử */
+  }
+
+
+
+
+
+  #certificate .col-12 {
+    width: 415px;
+    margin-bottom: 30px;
+  }
+  #certificate .certificate-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  #certificate h2{
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  #certificate h4 {
+    margin-top: 10px;
+  }
+  #certificate .vl {
+    display: none; /* Ẩn các đường thẳng giữa các phần tử */
+  }
+  
+  .column-1,
+  .column-2 {
+    border-bottom: 2px solid rgba(255, 157, 0, 0.907);
+    margin-top: 0;
+    padding-bottom: 50px;
+  } 
+}
